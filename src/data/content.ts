@@ -1,3 +1,5 @@
+const BASE = import.meta.env.BASE_URL
+
 export const WHATSAPP = '573116587002'
 
 export const phones = [
@@ -26,7 +28,7 @@ export const services = [
   {
     id: 'hogares',
     title: 'Limpieza de hogares',
-    img: '/img/limpiezasegura.com_.co_icono_limpieza-hogares.png',
+    img: BASE + 'img/limpiezasegura.com_.co_icono_limpieza-hogares.png',
     intro: 'Profesionales capacitadas que transforman tus espacios en un ambiente agradable e impecable.',
     groups: [
       { name: 'Baños', items: ['Lavado de pisos y paredes', 'Desinfección del área', 'Limpieza de cabinas y lavamanos', 'Juntas de baldosas', 'Espejos y griferías'] },
@@ -37,7 +39,7 @@ export const services = [
   {
     id: 'oficinas',
     title: 'Limpieza de oficinas',
-    img: '/img/limpiezasegura.com_.co_icono_limpieza-oficinas.png',
+    img: BASE + 'img/limpiezasegura.com_.co_icono_limpieza-oficinas.png',
     intro: 'Bienestar y productividad para tu equipo con un espacio de trabajo siempre cuidado.',
     groups: [
       { name: 'Áreas de trabajo', items: ['Papeleras', 'Barrido, trapeado y aspirado', 'Sacudido de oficinas', 'Muebles y sillas', 'Cables de equipos sin desconectarlos'] },
@@ -47,7 +49,7 @@ export const services = [
   {
     id: 'ph',
     title: 'Propiedad horizontal',
-    img: '/img/limpiezasegura.com_.co_icono_limpieza-PH.png',
+    img: BASE + 'img/limpiezasegura.com_.co_icono_limpieza-PH.png',
     intro: 'Aseo y limpieza para conjuntos y edificios, con la importancia que merece tu comunidad.',
     groups: [
       { name: 'Zonas comunes', items: ['Pisos y paredes', 'Puertas, ventanas y barandas', 'Ascensores', 'Lobby y portería', 'Parqueaderos y exteriores'] },

@@ -22,7 +22,7 @@ export default function Footer() {
       <footer className="bg-slate-950 py-12 text-slate-400">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-8 px-5 md:flex-row">
           <div className="text-center md:text-left">
-            <img src="/img/limpiezasegura.com_.co_logo-footer.png" alt="SafeClean Limpieza Segura" className="mx-auto h-14 md:mx-0" />
+            <img src={`${import.meta.env.BASE_URL}img/limpiezasegura.com_.co_logo-footer.png`} alt="SafeClean Limpieza Segura" className="mx-auto h-14 md:mx-0" />
             <p className="mt-3 text-sm">{phones.map((p) => `${p.display} (${p.label})`).join(' · ')}</p>
           </div>
           <nav aria-label="Pie de página" className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm font-semibold">

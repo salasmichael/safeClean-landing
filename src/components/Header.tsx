@@ -21,7 +21,7 @@ export default function Header() {
     >
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-5">
         <a href="#inicio" className="flex items-center gap-2" aria-label="SafeClean, inicio">
-          <img src="/img/logo-03.png" alt="" className="h-10 w-10" />
+          <img src={`${import.meta.env.BASE_URL}img/logo-03.png`} alt="" className="h-10 w-10" />
           <span className="text-lg font-extrabold tracking-tight text-brand-900">
             Safe<span className="text-leaf-600">Clean</span>
           </span>

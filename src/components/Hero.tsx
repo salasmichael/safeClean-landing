@@ -63,7 +63,7 @@ export default function Hero() {
           className="mt-14 overflow-hidden rounded-3xl border border-white bg-white shadow-2xl shadow-brand-900/10 ring-1 ring-brand-100"
         >
           <img
-            src="/img/Banner-HOME.png"
+            src={`${import.meta.env.BASE_URL}img/Banner-HOME.png`}
             alt="Servicios profesionales de aseo y limpieza SafeClean"
             width={1600}
             height={167}

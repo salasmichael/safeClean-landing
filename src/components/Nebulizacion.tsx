@@ -14,7 +14,7 @@ export default function Nebulizacion() {
       <div className="mx-auto grid max-w-6xl items-center gap-12 px-5 lg:grid-cols-2">
         <Reveal>
           <img
-            src="/img/Mail_SERV_1-03.png"
+            src={`${import.meta.env.BASE_URL}img/Mail_SERV_1-03.png`}
             alt="Servicio de desinfección con nebulización en frío ULV"
             loading="lazy"
             className="w-full rounded-3xl bg-white shadow-xl ring-1 ring-brand-100"
