@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --color-brand-50: #eef8fd;
+  --color-brand-100: #d6eefa;
+  --color-brand-200: #a9dcf3;
+  --color-brand-400: #3aa6dc;
+  --color-brand-500: #0b8ccf;
+  --color-brand-600: #0b6fb8;
+  --color-brand-700: #095a96;
+  --color-brand-900: #0a2e4d;
+  --color-aqua-400: #20c3d8;
+  --color-aqua-500: #00aac5;
+  --color-leaf-500: #7ab51d;
+  --color-leaf-600: #5f9114;
+}
+
+html { scroll-behavior: smooth; }
+body { @apply bg-white text-slate-700 antialiased; }
+section[id] { scroll-margin-top: 5rem; }
+:focus-visible { outline: 3px solid var(--color-aqua-500); outline-offset: 3px; border-radius: 6px; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}
